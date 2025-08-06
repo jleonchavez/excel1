@@ -1,5 +1,5 @@
-$hours = 0
-$minutes = 1
+$hours = 15
+$minutes = 0
 $PlusOrMinus = 1
 $sleepSecond = 5
 
@@ -55,4 +55,5 @@ if (-NOT ($hours -eq 0) -OR -NOT ($minutes -eq 0)) {
 } else {
   echo "Add Minutes or Hours"
   break;
+
 }
